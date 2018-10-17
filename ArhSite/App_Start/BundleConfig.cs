@@ -24,7 +24,9 @@ namespace ArhSite
 
             bundles.Add(new StyleBundle("~/Content/css").Include(
                       "~/Content/bootstrap.css",
-                      "~/Content/site.css"));
+                      "~/Content/site.css",
+                      "~/Content/Images/other_images",
+                      "~/Content/Images/theme_images"));
         }
     }
 }
