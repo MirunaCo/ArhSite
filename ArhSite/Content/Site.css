@@ -614,7 +614,7 @@ table {
     display: none;
     height: 200px;
     width: 100%;
-    background: url(../Content/Images/theme_images/loader.GIF) no-repeat center center;
+    background: url(../images/theme_images/loader.GIF) no-repeat center center;
     opacity: 0.5;
     filter: alpha(opacity=50);
 }
@@ -655,7 +655,7 @@ table {
     text-align: center;
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.18);
     padding: 65px 0 95px 0;
-    background: url(../Content/Images/theme_images/mobile_section_divider.png) no-repeat center bottom;
+    background: url(../images/theme_images/mobile_section_divider.png) no-repeat center bottom;
     background-size: 35% auto;
 }
 
@@ -1211,7 +1211,7 @@ h6 {
         left: 0;
         width: 100%;
         height: 100%;
-        background: url(../Content/Images/theme_images/more-plus-icon.png) no-repeat center center;
+        background: url(../images/theme_images/more-plus-icon.png) no-repeat center center;
         background-color: rgba(0,0,0,0.45);
         opacity: 0;
         filter: alpha(opacity=0);
@@ -1552,7 +1552,7 @@ h6 {
 }
 
 #main-content .carousel .carousel-control.left {
-    background-image: url(../Content/Images/theme_images/carousel_arrow_left.png);
+    background-image: url(../images/theme_images/carousel_arrow_left.png);
     left: 0;
 }
 
@@ -1561,7 +1561,7 @@ h6 {
     }
 
 #main-content .carousel .carousel-control.right {
-    background-image: url(../Content/Images/theme_images/carousel_arrow_right.png);
+    background-image: url(../images/theme_images/carousel_arrow_right.png);
     right: 0;
 }
 
@@ -1906,7 +1906,7 @@ h6 {
             left: 0;
             width: 100%;
             height: 100%;
-            background: url(../Content/Images/theme_images/more-plus-icon.png) no-repeat center center;
+            background: url(../images/theme_images/more-plus-icon.png) no-repeat center center;
             background-color: rgba(0,0,0,0.45);
             opacity: 0;
             filter: alpha(opacity=0);
