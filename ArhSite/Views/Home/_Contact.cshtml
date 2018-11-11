@@ -1,0 +1,47 @@
+﻿@model  ArhSite.Models.ContactViewModel
+<article id="contact" class="section-wrapper clearfix" data-custom-background-img="/assets/images/other_images/bg2.jpg">
+    <div class="content-wrapper clearfix">
+
+        <h1 class="section-title">Contact</h1>
+
+        <!-- CONTACT DETAILS -->
+        <div class="contact-details col-sm-5 col-md-3">
+            <p>123A,<br />Molestie Lorem Avenue,<br />Aliquam<br />AAA0010</p>
+            <p>Tel: (+20) 21 301 524</p>
+            <p><a href="mailto:info@loremipsum.com">info@loremipsum.com</a></p>
+        </div>
+        <!-- END: CONTACT DETAILS -->
+        <!-- CONTACT FORM -->
+        <div class="col-sm-7 col-md-9">
+            <!-- IMPORTANT: change the email address at the top of the assets/php/mail.php file to the email address that you want this form to send to -->
+            @using (Html.BeginForm("Contact", "Home", FormMethod.Post, new { @class = "form-style validate-form clearfix" })) {
+                <!-- form left col -->
+            <div class="col-md-6">
+                <div class="form-group">
+                    @Html.TextBoxFor(m => m.FullName, new { @class = "text-field form-control validate-field required", id = "form-name", placeholder = "Full Name" })
+                    @Html.ValidationMessageFor(m => m.FullName)
+
+                </div>
+                <div class="form-group">
+                    @Html.TextBoxFor(m => m.Email, new { @class = "text-field form-control validate-field required", id = "form-name", placeholder = "Email" })
+                    @Html.ValidationMessageFor(m => m.Email)
+                </div>
+                <div class="form-group">
+                    @Html.TextBoxFor(m => m.PhoneNumber, new { @class = "text-field form-control validate-field required", id = "form-name", placeholder = "Phone" })
+                    @Html.ValidationMessageFor(m => m.PhoneNumber)
+                </div>
+            </div><!-- end: form left col -->
+                <!-- form right col -->
+                <div class="col-md-6">
+                    <div class="form-group">
+                        @Html.TextAreaFor(m => m.Message, new { @class = "text-field form-control validate-field required", id = "form-name", placeholder = "Message" })
+                        @Html.ValidationMessageFor(m => m.Message)
+                    </div>
+                    <div class="form-group">
+                        <button type="submit" class="btn btn-sm btn-outline-inverse">Submit</button>
+                    </div>
+                </div><!-- end: form right col -->
+            }
+        </div><!-- end: CONTACT FORM -->
+    </div><!-- .content-wrapper -->
+</article><!-- .section-wrapper -->

@@ -152,7 +152,10 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Models\ContactViewModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Services\Configuration.cs" />
+    <Compile Include="Services\EmailSender.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="assets\images\other_images\bg1.jpg" />
@@ -348,10 +351,11 @@
     <Content Include="Views\Languages\Index.cshtml" />
     <Content Include="Views\Home\_Intro.cshtml" />
     <Content Include="Views\Home\_Featured.cshtml" />
+    <Content Include="Views\Home\_Contact.cshtml" />
+    <Content Include="Views\Shared\_Modal.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Models\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />

@@ -9,12 +9,14 @@
 
 </head>
 <body data-default-background-img="assets/images/other_images/bg5.jpg" data-overlay="true" data-overlay-opacity="0.35">
-        @{ Html.RenderPartial("_MenuSidebar"); }
+    @{ Html.RenderPartial("_MenuSidebar"); }
 
-        @RenderBody()
-        <hr />
+    @RenderBody()
+    @{ Html.RenderPartial("_Modal"); }
+    <hr />
 
     @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/jqueryval")
     @Scripts.Render("~/bundles/mainbootstrap")
     @RenderSection("scripts", required: false)
 </body>
