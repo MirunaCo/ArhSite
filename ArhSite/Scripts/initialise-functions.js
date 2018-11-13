@@ -52,15 +52,15 @@ function initialise_document_ready_functions() {
         if ($('#common-modal .popup-image-gallery').length > 0) {
             // custom parameters for carousel (see Owl Carousel documentation for more info)
             $("#common-modal .popup-image-gallery").owlCarousel({
-                autoPlay: 3000,
-                stopOnHover: true,
-                navigation: false,
+                singleItem: true,             
+                loop: true,
+                autoplay: true,
+                autoplayHoverPause: true,
                 paginationSpeed: 1000,
+                autoPlay: 3000,
                 goToFirstSpeed: 2000,
-                singleItem: true,
                 lazyLoad: true,
                 autoHeight: true,
-                transitionStyle: "fade",
                 afterLazyLoad: function () {
                     position_modal_at_centre(); // position popup at the centre of the page 
                     modal_backdrop_height($('#common-modal')); // fix backdrop height after all elements inside the popup are loaded

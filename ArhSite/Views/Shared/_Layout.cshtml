@@ -8,12 +8,11 @@
     @Scripts.Render("~/bundles/modernizr")
 
 </head>
-<body data-default-background-img="assets/images/other_images/bg5.jpg" data-overlay="true" data-overlay-opacity="0.35">
+<body data-overlay="true" data-overlay-opacity="0.35">
     @{ Html.RenderPartial("_MenuSidebar"); }
 
     @RenderBody()
     @{ Html.RenderPartial("_Modal"); }
-    <hr />
 
     @Scripts.Render("~/bundles/jquery")
     @Scripts.Render("~/bundles/jqueryval")

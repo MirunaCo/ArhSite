@@ -1,9 +1,13 @@
 ﻿@{
-   ViewBag.Title = "Home Page";
+    ViewBag.Title = "Home Page";
 }
 <div id="outer-container">
     <section id="main-content" class="clearfix">
         @{ Html.RenderPartial("_Intro"); }
+
+        @{ Html.RenderPartial("_About"); }
+
+        @{ Html.RenderPartial("_Services"); }
 
         @{ Html.RenderPartial("_Featured"); }
 

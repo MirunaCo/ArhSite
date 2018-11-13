@@ -158,13 +158,18 @@
     <Compile Include="Services\EmailSender.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="assets\images\other_images\bg1.jpg" />
-    <Content Include="assets\images\other_images\bg2.jpg" />
-    <Content Include="assets\images\other_images\bg3.jpg" />
-    <Content Include="assets\images\other_images\bg4.jpg" />
-    <Content Include="assets\images\other_images\bg5.jpg" />
-    <Content Include="assets\images\other_images\bg6.jpg" />
-    <Content Include="assets\images\other_images\bg7.jpg" />
+    <Content Include="assets\images\background_images\DTAC_ferma-1.jpg" />
+    <Content Include="assets\images\background_images\DTAC_ferma-2.jpg" />
+    <Content Include="assets\images\background_images\DTAC_ferma-3.jpg" />
+    <Content Include="assets\images\background_images\DTAC_ferma-4.jpg" />
+    <Content Include="assets\images\background_images\DTAC_imobil.jpg" />
+    <Content Include="assets\images\background_images\DTAC_locuinta-1.jpg" />
+    <Content Include="assets\images\background_images\DTAC_locuinta-2.jpg" />
+    <Content Include="assets\images\background_images\DTAC_locuinta-3.jpg" />
+    <Content Include="assets\images\background_images\DTAC_locuinta-4.jpg" />
+    <Content Include="assets\images\background_images\DTAC_locuinta-5.jpg" />
+    <Content Include="assets\images\background_images\ferma-taurasi-1.jpg" />
+    <Content Include="assets\images\background_images\ferma_taurasi.jpg" />
     <Content Include="assets\images\other_images\favicon.png" />
     <Content Include="assets\images\other_images\gallery-thumb-1.jpg" />
     <Content Include="assets\images\other_images\gallery-thumb-2.jpg" />
@@ -196,6 +201,8 @@
     <Content Include="assets\images\other_images\transp-image5b.png" />
     <Content Include="assets\images\other_images\transp-image6.png" />
     <Content Include="assets\images\other_images\transp-image7.png" />
+    <Content Include="assets\images\background_images\puz-1.jpg" />
+    <Content Include="assets\images\background_images\puz-2.jpg" />
     <Content Include="Content\bootstrap-theme.css" />
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
@@ -353,6 +360,8 @@
     <Content Include="Views\Home\_Featured.cshtml" />
     <Content Include="Views\Home\_Contact.cshtml" />
     <Content Include="Views\Shared\_Modal.cshtml" />
+    <Content Include="Views\Home\_About.cshtml" />
+    <Content Include="Views\Home\_Services.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

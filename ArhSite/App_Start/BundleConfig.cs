@@ -23,10 +23,11 @@ namespace ArhSite
                    "~/Scripts/bootstrap.js",
                     "~/Scripts//Plugins/easing.1.3.js",
                      "~/Scripts/detectmobilebrowser.js",
-                     "~/Scripts/jquery.fitvids.js",
+                   
                      "~/Scripts/Plugins/jquery.vegas.min.js",
                      "~/Scripts/Plugins/wow.min.js",
                      "~/Scripts/Plugins/owl.carousel.min.js",
+                     "~/Scripts/jquery.fitvids.js",
                      "~/Scripts/functions.js",
                      "~/Scripts/initialise-functions.js"));
 
