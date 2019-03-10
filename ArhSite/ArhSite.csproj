@@ -331,6 +331,7 @@
     <Content Include="Views\Home\_Contact.cshtml" />
     <Content Include="Views\Shared\_Modal.cshtml" />
     <Content Include="Views\Home\_Services.cshtml" />
+    <Content Include="Views\Home\_About.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
