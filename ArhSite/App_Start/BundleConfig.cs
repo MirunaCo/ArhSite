@@ -22,8 +22,9 @@ namespace ArhSite
          bundles.Add(new ScriptBundle("~/bundles/mainbootstrap").Include(
                    "~/Scripts/bootstrap.js",
                     "~/Scripts//Plugins/easing.1.3.js",
-                     "~/Scripts/detectmobilebrowser.js",
-                   
+                    "~/Scripts/detectmobilebrowser.js",
+                    "~/Scripts/FormAlert.js",
+
                      "~/Scripts/Plugins/jquery.vegas.min.js",
                      "~/Scripts/Plugins/wow.min.js",
                      "~/Scripts/Plugins/owl.carousel.min.js",

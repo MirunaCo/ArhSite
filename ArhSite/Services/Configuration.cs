@@ -46,7 +46,7 @@ namespace ArhSite.Services
          get { return this["host"].ToString(); }
       }
 
-      [ConfigurationProperty("port", IsRequired = false, DefaultValue = 587)]
+      [ConfigurationProperty("port", IsRequired = false, DefaultValue = 25)]
       public int Port
       {
          get

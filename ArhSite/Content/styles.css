@@ -1058,7 +1058,7 @@ h6 {
 
 #main-content .feature-columns .feature-col .thumbnail img.item-thumbnail {
     width:100% !important;
-    height:auto !important;
+    height:200px !important;
     opacity: 0.8;
     filter: alpha(opacity=80);
     -webkit-transition: all 0.4s;
@@ -1957,4 +1957,12 @@ img.full-width {
 
 .vegas-loading {
   display:none !important;
+}
+
+/*--------------- ALERT ---------------*/
+#messages {
+    position: fixed;
+    bottom: 5px;
+    left: 2%;
+    width: 96%;
 }

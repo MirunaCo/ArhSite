@@ -5,8 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>@ViewBag.Title - My ASP.NET Application</title>
     @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/jqueryval")
     @Scripts.Render("~/bundles/modernizr")
-
 </head>
 <body data-overlay="true" data-overlay-opacity="0.35">
     @{ Html.RenderPartial("_MenuSidebar"); }
@@ -14,8 +15,7 @@
     @RenderBody()
     @{ Html.RenderPartial("_Modal"); }
 
-    @Scripts.Render("~/bundles/jquery")
-    @Scripts.Render("~/bundles/jqueryval")
+
     @Scripts.Render("~/bundles/mainbootstrap")
     @RenderSection("scripts", required: false)
 </body>

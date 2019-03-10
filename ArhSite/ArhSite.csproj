@@ -45,6 +45,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
+    </Reference>
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System" />
     <Reference Include="System.Data" />
@@ -139,9 +142,6 @@
     <Reference Include="Microsoft.AI.Web">
       <HintPath>..\packages\Microsoft.ApplicationInsights.Web.2.5.1\lib\net45\Microsoft.AI.Web.dll</HintPath>
     </Reference>
-    <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform">
-      <HintPath>..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
-    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\BundleConfig.cs" />
@@ -214,6 +214,7 @@
     <Content Include="Content\fonts\OpenSans-Regular-webfont.svg" />
     <Content Include="Content\fonts\OpenSans-Semibold-webfont.svg" />
     <Content Include="Content\fonts\stylesheet.css" />
+    <Content Include="assets\images\background_images\backgroundGrey.jpg" />
     <Content Include="Content\Images\other_images\bg1.jpg" />
     <Content Include="Content\Images\other_images\bg2.jpg" />
     <Content Include="Content\Images\other_images\bg3.jpg" />
@@ -237,6 +238,7 @@
     <Content Include="Content\Images\other_images\project-6.jpg" />
     <Content Include="Content\Images\other_images\project-7.jpg" />
     <Content Include="Content\Images\other_images\project-8.jpg" />
+    <Content Include="Content\Images\other_images\sas_sigla.png" />
     <Content Include="Content\Images\other_images\tabs-icon1.png" />
     <Content Include="Content\Images\other_images\tabs-icon2.png" />
     <Content Include="Content\Images\other_images\tabs-icon3.png" />
@@ -316,8 +318,11 @@
     <Content Include="Content\fonts\OpenSans-Semibold-webfont.eot" />
     <Content Include="Content\fonts\OpenSans-Semibold-webfont.ttf" />
     <Content Include="Content\fonts\OpenSans-Semibold-webfont.woff" />
+    <None Include="Properties\PublishProfiles\CustomProfile.pubxml" />
+    <None Include="Properties\PublishProfiles\CustomProfile1.pubxml" />
     <None Include="Scripts\jquery-3.3.1.intellisense.js" />
     <Content Include="Scripts\detectmobilebrowser.js" />
+    <Content Include="Scripts\FormAlert.js" />
     <Content Include="Scripts\functions.js" />
     <Content Include="Scripts\functions.min.js" />
     <Content Include="Scripts\initialise-functions.js" />
@@ -341,7 +346,9 @@
     <Content Include="Scripts\Plugins\lightbox.min.js" />
     <Content Include="Scripts\Plugins\owl.carousel.min.js" />
     <Content Include="Scripts\Plugins\wow.min.js" />
-    <Content Include="Web.config" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </Content>
