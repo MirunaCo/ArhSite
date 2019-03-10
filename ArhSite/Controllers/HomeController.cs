@@ -32,6 +32,7 @@ namespace ArhSite.Controllers
             if (ModelState.IsValid) {
                EmailSender service = new EmailSender();
                service.SendContact(model.FullName, model.Email, model.PhoneNumber, model.Message);
+                    return Json("Success", JsonRequestBehavior.AllowGet);
                 }
                 //ViewData["Success"] = "Email trimis cu success";
                 //ViewBag.Section = "contact"; //#contact         

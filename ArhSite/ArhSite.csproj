@@ -158,6 +158,7 @@
     <Compile Include="Services\EmailSender.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="assets\images\background_images\background-image-overlay-full.png" />
     <Content Include="assets\images\background_images\DTAC_ferma-1.jpg" />
     <Content Include="assets\images\background_images\DTAC_ferma-2.jpg" />
     <Content Include="assets\images\background_images\DTAC_ferma-3.jpg" />
@@ -171,28 +172,11 @@
     <Content Include="assets\images\background_images\ferma-taurasi-1.jpg" />
     <Content Include="assets\images\background_images\ferma_taurasi.jpg" />
     <Content Include="assets\images\other_images\favicon.png" />
-    <Content Include="assets\images\other_images\gallery-thumb-1.jpg" />
-    <Content Include="assets\images\other_images\gallery-thumb-2.jpg" />
-    <Content Include="assets\images\other_images\gallery-thumb-3.jpg" />
-    <Content Include="assets\images\other_images\gallery-thumb-4.jpg" />
-    <Content Include="assets\images\other_images\gallery-thumb-5.jpg" />
-    <Content Include="assets\images\other_images\gallery-thumb-6.jpg" />
     <Content Include="assets\images\other_images\logo.png" />
-    <Content Include="assets\images\other_images\project-1.jpg" />
-    <Content Include="assets\images\other_images\project-2.jpg" />
-    <Content Include="assets\images\other_images\project-3.jpg" />
-    <Content Include="assets\images\other_images\project-4.jpg" />
-    <Content Include="assets\images\other_images\project-5.jpg" />
-    <Content Include="assets\images\other_images\project-6.jpg" />
-    <Content Include="assets\images\other_images\project-7.jpg" />
-    <Content Include="assets\images\other_images\project-8.jpg" />
     <Content Include="assets\images\other_images\tabs-icon1.png" />
     <Content Include="assets\images\other_images\tabs-icon2.png" />
     <Content Include="assets\images\other_images\tabs-icon3.png" />
     <Content Include="assets\images\other_images\tabs-icon4.png" />
-    <Content Include="assets\images\other_images\top-image1.jpg" />
-    <Content Include="assets\images\other_images\top-image2.jpg" />
-    <Content Include="assets\images\other_images\top-image3.jpg" />
     <Content Include="assets\images\other_images\transp-image1.png" />
     <Content Include="assets\images\other_images\transp-image2.png" />
     <Content Include="assets\images\other_images\transp-image3.png" />
@@ -215,29 +199,8 @@
     <Content Include="Content\fonts\OpenSans-Semibold-webfont.svg" />
     <Content Include="Content\fonts\stylesheet.css" />
     <Content Include="assets\images\background_images\backgroundGrey.jpg" />
-    <Content Include="Content\Images\other_images\bg1.jpg" />
-    <Content Include="Content\Images\other_images\bg2.jpg" />
-    <Content Include="Content\Images\other_images\bg3.jpg" />
-    <Content Include="Content\Images\other_images\bg4.jpg" />
-    <Content Include="Content\Images\other_images\bg5.jpg" />
-    <Content Include="Content\Images\other_images\bg6.jpg" />
-    <Content Include="Content\Images\other_images\bg7.jpg" />
+    <Content Include="Content\Images\other_images\e5190e15-98d4-45be-95d4-96145723f08b.jpg" />
     <Content Include="Content\Images\other_images\favicon.png" />
-    <Content Include="Content\Images\other_images\gallery-thumb-1.jpg" />
-    <Content Include="Content\Images\other_images\gallery-thumb-2.jpg" />
-    <Content Include="Content\Images\other_images\gallery-thumb-3.jpg" />
-    <Content Include="Content\Images\other_images\gallery-thumb-4.jpg" />
-    <Content Include="Content\Images\other_images\gallery-thumb-5.jpg" />
-    <Content Include="Content\Images\other_images\gallery-thumb-6.jpg" />
-    <Content Include="Content\Images\other_images\logo.png" />
-    <Content Include="Content\Images\other_images\project-1.jpg" />
-    <Content Include="Content\Images\other_images\project-2.jpg" />
-    <Content Include="Content\Images\other_images\project-3.jpg" />
-    <Content Include="Content\Images\other_images\project-4.jpg" />
-    <Content Include="Content\Images\other_images\project-5.jpg" />
-    <Content Include="Content\Images\other_images\project-6.jpg" />
-    <Content Include="Content\Images\other_images\project-7.jpg" />
-    <Content Include="Content\Images\other_images\project-8.jpg" />
     <Content Include="Content\Images\other_images\sas_sigla.png" />
     <Content Include="Content\Images\other_images\tabs-icon1.png" />
     <Content Include="Content\Images\other_images\tabs-icon2.png" />
@@ -367,7 +330,6 @@
     <Content Include="Views\Home\_Featured.cshtml" />
     <Content Include="Views\Home\_Contact.cshtml" />
     <Content Include="Views\Shared\_Modal.cshtml" />
-    <Content Include="Views\Home\_About.cshtml" />
     <Content Include="Views\Home\_Services.cshtml" />
   </ItemGroup>
   <ItemGroup>
