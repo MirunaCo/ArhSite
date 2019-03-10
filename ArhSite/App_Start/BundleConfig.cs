@@ -25,7 +25,6 @@ namespace ArhSite
                     "~/Scripts/detectmobilebrowser.js",
                     "~/Scripts/FormAlert.js",
 
-                     "~/Scripts/Plugins/jquery.vegas.min.js",
                      "~/Scripts/Plugins/wow.min.js",
                      "~/Scripts/Plugins/owl.carousel.min.js",
                      "~/Scripts/jquery.fitvids.js",

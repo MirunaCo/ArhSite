@@ -383,35 +383,35 @@ function set_section_to_active(target_section_id, clicked_menu_item_id, called_o
         var overlay_opacity_value = $("body").attr("data-overlay-opacity");
         var overlay_opacity = (overlay_opacity_value !== undefined && overlay_opacity_value != "") ? parseFloat(overlay_opacity_value) : 0.35;
 
-        // ------ change custom background ------
-        if ( change_background !== false && change_bg_check() ){
-            var section_custom_background_attr = section_wrapper.attr("data-custom-background-img");
-            var section_custom_background = (section_custom_background_attr !== undefined && section_custom_background_attr != "") ? section_custom_background_attr : $("body").attr("data-default-background-img"); // use #outer-background-container default image if custom background not set
+        //// ------ change custom background ------
+        //if ( change_background !== false && change_bg_check() ){
+        //    var section_custom_background_attr = section_wrapper.attr("data-custom-background-img");
+        //    var section_custom_background = (section_custom_background_attr !== undefined && section_custom_background_attr != "") ? section_custom_background_attr : $("body").attr("data-default-background-img"); // use #outer-background-container default image if custom background not set
 
-            // if target section wrapper has custom background set
-            if (section_custom_background !== undefined && section_custom_background !== "")
-            {
-                var transition_speed = (called_on_scroll !== true) ? 1500 : 550; // crossfading speed should be faster when function called on scroll
-                $(function () {
-                  $.vegas({ src:section_custom_background, fade:transition_speed, });
-                    if (overlay_enabled) $.vegas('overlay', { src: '/Content/Images/other_images/background-image-overlay-full.png', opacity: overlay_opacity });
-                });
-            }
-            // end: if target section wrapper has custom background set
-        }
-        // end: change custom background
+        //    // if target section wrapper has custom background set
+        //    if (section_custom_background !== undefined && section_custom_background !== "")
+        //    {
+        //        var transition_speed = (called_on_scroll !== true) ? 1500 : 550; // crossfading speed should be faster when function called on scroll
+        //        $(function () {
+        //          $.vegas({ src:section_custom_background, fade:transition_speed, });
+        //            if (overlay_enabled) $.vegas('overlay', { src:"/Content/Images/other_images/background-image-overlay-full.png", opacity: overlay_opacity });
+        //        });
+        //    }
+        //    // end: if target section wrapper has custom background set
+        //}
+        //// end: change custom background
 
-        // background change disabled
-        else if ( background_settings.use_script && !$("body").hasClass("defualt-bg-set")) {
-            var default_bg = $("body").attr("data-default-background-img");
-            if (default_bg != "" && default_bg !== undefined) {
-                $(function() {
-                  $.vegas({ src:default_bg, fade:1500, });
-                    if (overlay_enabled) $.vegas('overlay', { src: '/Content/Images/other_images/background-image-overlay-full.png', opacity:overlay_opacity });
-                }); 
-                $("body").addClass("defualt-bg-set"); 
-            }          
-        } // end: background change disabled
+        //// background change disabled
+        //else if ( background_settings.use_script && !$("body").hasClass("defualt-bg-set")) {
+        //    var default_bg = $("body").attr("data-default-background-img");
+        //    if (default_bg != "" && default_bg !== undefined) {
+        //        $(function() {
+        //          $.vegas({ src:default_bg, fade:1500, });
+        //            if (overlay_enabled) $.vegas('overlay', { src:"/Content/Images/other_images/background-image-overlay-full.png", opacity:overlay_opacity });
+        //        }); 
+        //        $("body").addClass("defualt-bg-set"); 
+        //    }          
+        //} // end: background change disabled
         
     }
     // end: only works if the target_section is provided

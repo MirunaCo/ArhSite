@@ -21,7 +21,7 @@
                 <!-- form left col -->
                 <div class="col-md-6">
                     <div class="form-group">
-                        @Html.TextBoxFor(m => m.FullName, new { @class = "text-field form-control validate-field required", id = "form-name", placeholder = "Full Name" })
+                        @Html.TextBoxFor(m => m.FullName, new { @class = "text-field form-control validate-field required", id = "form-name", placeholder = "Nume" })
                         @Html.ValidationMessageFor(m => m.FullName)
 
                     </div>
@@ -30,14 +30,14 @@
                         @Html.ValidationMessageFor(m => m.Email)
                     </div>
                     <div class="form-group">
-                        @Html.TextBoxFor(m => m.PhoneNumber, new { @class = "text-field form-control validate-field required", id = "form-name", placeholder = "Phone" })
+                        @Html.TextBoxFor(m => m.PhoneNumber, new { @class = "text-field form-control validate-field required", id = "form-name", placeholder = "Telefon" })
                         @Html.ValidationMessageFor(m => m.PhoneNumber)
                     </div>
                 </div><!-- end: form left col -->
                 <!-- form right col -->
                 <div class="col-md-6">
                     <div class="form-group">
-                        @Html.TextAreaFor(m => m.Message, new { @class = "text-field form-control validate-field required", id = "form-name", placeholder = "Message" })
+                        @Html.TextAreaFor(m => m.Message, new { @class = "text-field form-control validate-field required", id = "form-name", placeholder = "Measj" })
                         @Html.ValidationMessageFor(m => m.Message)
                     </div>
                     <div class="form-group">

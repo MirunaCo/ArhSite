@@ -10,7 +10,10 @@
     @Scripts.Render("~/bundles/jqueryval")
     @Scripts.Render("~/bundles/modernizr")
 </head>
-<body data-overlay="true" data-overlay-opacity="0.35">
+<body>
+    <div class="overlay">
+
+    </div>
     @{ Html.RenderPartial("_MenuSidebar"); }
 
     @RenderBody()

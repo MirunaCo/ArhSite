@@ -218,7 +218,7 @@
     <Content Include="Content\Images\other_images\transp-image6.png" />
     <Content Include="Content\Images\other_images\transp-image7.png" />
     <Content Include="Content\Images\other_images\background-image-overlay-full.png" />
-    <Content Include="Content\Images\theme_images\background-image-overlay.png" />
+    <Content Include="assets\images\background_images\background-image-overlay.png" />
     <Content Include="Content\Images\theme_images\carousel_arrow_left.png" />
     <Content Include="Content\Images\theme_images\carousel_arrow_right.png" />
     <Content Include="Content\Images\theme_images\loader-form.GIF" />
@@ -283,6 +283,7 @@
     <Content Include="Content\fonts\OpenSans-Semibold-webfont.woff" />
     <None Include="Properties\PublishProfiles\CustomProfile.pubxml" />
     <None Include="Properties\PublishProfiles\CustomProfile1.pubxml" />
+    <None Include="Properties\PublishProfiles\CustomProfile2.pubxml" />
     <None Include="Scripts\jquery-3.3.1.intellisense.js" />
     <Content Include="Scripts\detectmobilebrowser.js" />
     <Content Include="Scripts\FormAlert.js" />
