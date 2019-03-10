@@ -217,7 +217,7 @@
     <Content Include="Content\Images\other_images\transp-image5b.png" />
     <Content Include="Content\Images\other_images\transp-image6.png" />
     <Content Include="Content\Images\other_images\transp-image7.png" />
-    <Content Include="Content\Images\theme_images\background-image-overlay-full.png" />
+    <Content Include="Content\Images\other_images\background-image-overlay-full.png" />
     <Content Include="Content\Images\theme_images\background-image-overlay.png" />
     <Content Include="Content\Images\theme_images\carousel_arrow_left.png" />
     <Content Include="Content\Images\theme_images\carousel_arrow_right.png" />
