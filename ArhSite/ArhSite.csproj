@@ -171,6 +171,14 @@
     <Content Include="assets\images\background_images\DTAC_locuinta-5.jpg" />
     <Content Include="assets\images\background_images\ferma-taurasi-1.jpg" />
     <Content Include="assets\images\background_images\ferma_taurasi.jpg" />
+    <Content Include="assets\images\background_images\puz-3-min.jpg" />
+    <Content Include="assets\images\background_images\randare-1.jpg" />
+    <Content Include="assets\images\background_images\randare-2.jpg" />
+    <Content Include="assets\images\background_images\randare-3.jpg" />
+    <Content Include="assets\images\background_images\randare-4.jpg" />
+    <Content Include="assets\images\background_images\randare-5.jpg" />
+    <Content Include="assets\images\background_images\randare-6.jpg" />
+    <Content Include="assets\images\background_images\randare-7.jpg" />
     <Content Include="assets\images\other_images\favicon.png" />
     <Content Include="assets\images\other_images\logo.png" />
     <Content Include="assets\images\other_images\tabs-icon1.png" />
@@ -206,9 +214,6 @@
     <Content Include="Content\Images\other_images\tabs-icon2.png" />
     <Content Include="Content\Images\other_images\tabs-icon3.png" />
     <Content Include="Content\Images\other_images\tabs-icon4.png" />
-    <Content Include="Content\Images\other_images\top-image1.jpg" />
-    <Content Include="Content\Images\other_images\top-image2.jpg" />
-    <Content Include="Content\Images\other_images\top-image3.jpg" />
     <Content Include="Content\Images\other_images\transp-image1.png" />
     <Content Include="Content\Images\other_images\transp-image2.png" />
     <Content Include="Content\Images\other_images\transp-image3.png" />
@@ -284,6 +289,7 @@
     <None Include="Properties\PublishProfiles\CustomProfile.pubxml" />
     <None Include="Properties\PublishProfiles\CustomProfile1.pubxml" />
     <None Include="Properties\PublishProfiles\CustomProfile2.pubxml" />
+    <None Include="Properties\PublishProfiles\CustomProfile3.pubxml" />
     <None Include="Scripts\jquery-3.3.1.intellisense.js" />
     <Content Include="Scripts\detectmobilebrowser.js" />
     <Content Include="Scripts\FormAlert.js" />
