@@ -46,7 +46,7 @@ namespace ArhSite.Services
          get { return this["host"].ToString(); }
       }
 
-      [ConfigurationProperty("port", IsRequired = false, DefaultValue = 25)]
+      [ConfigurationProperty("port", IsRequired = false, DefaultValue = 465)]
       public int Port
       {
          get
@@ -64,7 +64,7 @@ namespace ArhSite.Services
       {
          get
          {
-            bool result = false;
+            bool result = true;
             if (bool.TryParse(this["sslEnabled"].ToString(), out result)) {
                return result;
             }

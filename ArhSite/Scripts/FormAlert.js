@@ -6,11 +6,16 @@
                 type: "POST",
                 url: $(this).attr('action'),
                 data: $(this).serialize(),
+                dataType: 'json',
                 success: function (res) {
-                    $('#messages').removeClass('hide').addClass('alert alert-success alert-dismissible').slideDown().show();
+                    if (res.success) {
+                        $('#messages').removeClass('hide').html("<div class='alert alert-success alert-dismissible'>" + res.responseText + "</div>").slideDown().show();
+                    } else {
+                        $('#messages').removeClass('hide').html("<div class='alert alert-danger'>" + res.responseText + "</div>").slideDown().show();
+                    }    
                 },
-                error: function (request, status, error) {
-                    $('#messages').removeClass('hide').addClass('alert alert-danger alert-dismissible').slideDown().show();
+                error: function (res) {
+                    $('#messages').removeClass('hide').html("<div class='alert alert-danger'>" + res.responseText + "</div>").slideDown().show();
                 }
                 
             });

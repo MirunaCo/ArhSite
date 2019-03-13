@@ -32,19 +32,12 @@ namespace ArhSite.Controllers
             if (ModelState.IsValid) {
                EmailSender service = new EmailSender();
                service.SendContact(model.FullName, model.Email, model.PhoneNumber, model.Message);
-                    return Json("Success", JsonRequestBehavior.AllowGet);
                 }
-                //ViewData["Success"] = "Email trimis cu success";
-                //ViewBag.Section = "contact"; //#contact         
-                //return View("Index",model);
-
-                return Json("Success", JsonRequestBehavior.AllowGet);
+                return Json(new { success = true, responseText = "Email trimis cu succes!" }, JsonRequestBehavior.AllowGet);
             }
             catch (Exception ex)
             {
-                //ViewData["Error"] = "S-a produs o eroare";
-                //return View("Index", model);
-                return Json("Error", JsonRequestBehavior.AllowGet);
+                return Json(new { success = false, responseText = "S-a produs o eroare!" }, JsonRequestBehavior.AllowGet);
             }
         }
    }
