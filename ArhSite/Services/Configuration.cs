@@ -59,7 +59,7 @@ namespace ArhSite.Services
          }
       }
 
-      [ConfigurationProperty("sslEnabled", IsRequired = false, DefaultValue = false)]
+      [ConfigurationProperty("sslEnabled", IsRequired = true, DefaultValue = true)]
       public bool IsSslEnabled
       {
          get
